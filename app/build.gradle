@@ -1,4 +1,5 @@
-apply plugin: "com.android.application"
+// apply plugin: "com.android.application"
+apply plugin: "com.android.library"
 
 import com.android.build.OutputFile
 
@@ -131,7 +132,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.whiteboard_react_native"
+        // applicationId "com.whiteboard_react_native"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
